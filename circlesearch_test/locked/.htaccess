@@ -1,0 +1,11 @@
+#Redirect 301 .* http://hogera.sakura.ne.jp/circlesearch/index.php
+#Redirect permanent /circlesearch/ http://hogera.sakura.ne.jp/circlesearch/
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+AuthUserFile /home/hogera/www/circlesearch/locked/.passwd
+AuthGroupFile /dev/null
+AuthName "Please enter your ID and password"
+AuthType Basic
+Require valid-user
+#ErrorDocument 404 http://hogera.sakura.ne.jp/circlesearch/index.php

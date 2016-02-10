@@ -1,0 +1,282 @@
+﻿*{
+	font-family:  "ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+	/*background-color:RGB(67,186,207) ;*/
+}
+
+a{text-decoration: none;}
+
+ul{
+	list-style-type: none;
+}
+li{
+	background-image: url("li_select.png");
+	background-repeat: no-repeat;
+	padding-left:35px;
+	margin-bottom:15px;
+	list-style-position: outside;
+}
+
+/*
+.header{
+	width:200%;
+	height: 200px;
+	border-bottom:1px solid;
+	margin:0px auto;
+}
+.header_l{
+	float:left;
+}
+.title{
+	font-size: 30px;
+	padding:1px 30px;
+}
+.logo{
+	float: left;
+	width: 450px;
+	height:100px;
+}
+.logo img{
+	float: left;
+	max-width:50%;
+	max-height: 100%;
+}
+*/
+.tsubuyaki{
+	float: right;
+	width: 550px;
+	height:250px;
+	margin: 8px;
+}
+.hukidashi{
+	float:left;
+	width: 300px;
+	margin-left:50px;
+}
+.kyara{
+	float:right;
+	width: 195px;
+	height:350px;
+}
+.mainmenu{
+	clear:left;
+	margin: 20px auto;
+	width:1000px;
+	height:150px;
+}
+.mainmenu a{
+	background:url("po-click.jpg");
+	margin-right:3px;
+}
+.mainmenu img{
+	width: 195px;
+	max-height: 300px;
+	float: left;
+	border:solid 1px;
+	background:url("po-click.jpg");
+	display:block;
+}
+
+
+
+.body{
+	clear:left;
+	width:1000px;
+	margin: 0px auto;
+}
+.sidemenu{
+	float: left;
+	width:195px;
+	
+}
+
+.sidemenu span{
+	color:rgb(66,180,207);
+	font-weight:bold;
+	font-size: 25px;
+	display:block;
+	border-bottom:1px solid gray;
+	padding-bottom: 3px;
+	
+}
+.sidemenu li{
+	font-size: 15px;
+	line-height: 35px;
+}
+.main{
+	float: left;
+	width:480px;
+	margin-left: 25px;
+}
+.main_title{
+	display:block;
+	font-size: 35px;
+}
+.main img{
+	margin:0px auto;
+	width:500px;
+	margin-bottom: 20px;
+}
+.main img:hover{
+	background-color:black;
+}
+.main_title img{
+	width:20px;
+}
+.circle{
+	float:right;
+	border-left:1px solid gray;border-right:1px solid gray;
+	margin-right: 5px;
+	width:200px;
+	padding-left:6px;
+}
+.circle_title{
+	color:RGB(67,180,207);
+	font-size: 30px;
+	text-decoration: underline;
+	text-align: center;
+	display:block;
+	width:100%;
+	margin:0 auto;
+	
+}
+/*変更開始*/
+
+.circle p{
+
+
+	display:block;
+	display:block;
+
+	width:190px;
+	font-size: 16px;
+	
+
+	padding:5px;
+	margin:15px auto;
+}
+.circle img{
+        margin-top:20px;
+	margin-left:30px;
+}
+
+/*
+.btn{
+  display: inline-block;
+  cursor: pointer;
+  padding: 12px 80px;
+  background-color: rgb(67,186,207);
+  box-shadow: 0px 5px rgb(58, 134, 147);;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 12px;
+ 
+}
+*/
+.btn{
+	margin-top:10px;
+  width:192px;
+  height:50px;
+  padding-top:30px;
+  text-align:center;
+  vertical-align: center;
+  display: inline-block;
+  cursor: pointer;
+  background-color: rgb(67,186,207);
+  box-shadow: 0px 5px rgb(58, 134, 147);;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 20px;
+}
+
+
+.btn:active{
+  position: relative;
+  top: 5px;
+  box-shadow: none;
+}
+
+.reportlittle{
+	display: none;
+}
+
+.jslittle{
+	display: none;
+}
+
+.gazoulittle{
+	display: none;
+}
+
+.benlittle{
+	display: none;
+}
+
+.miyako_title{
+    height:100%;
+    width:100%;
+}
+.header{
+    height:250px;
+    background-color:RGB(67,186,207);
+    margin:0 auto;
+}
+.title{
+	width:400px;
+	float:left;
+    
+}
+.footer{
+	margin:0 auto;
+	clear:both;
+    /* 記事のfloatを消してfooterが被らないようにした */
+
+    background-color:RGB(67,186,207);
+    color:white;
+    height:400px;
+    font-weight:bold;
+    
+}
+.footer p{
+    font-size:20px;
+}
+.footer a{
+    color:white;
+}
+.footer_img{
+	width:200px;
+	height:200px;
+	margin-top:100px;
+    margin-left:20px;
+    float:left;
+    margin-right:10px;
+    
+    
+}
+.footer img{
+    width:95%;height:95%;
+}
+
+.footer_text{
+	float:left;
+	width:500px;
+	padding-top: 130px;
+    
+}
+.footer_info
+{
+    float:right;
+    width:250px;
+    margin-top:80px;
+    padding-top:50px;
+    padding-left:10px;
+    border-left:1px solid white;
+    padding-bottom:50px;
+    margin-bottom:80px;
+    
+}
+.footer_info p{
+	font-size:18px;
+}
+
+body{
+ background-color:rgb(242,242,242);}

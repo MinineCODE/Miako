@@ -1,0 +1,146 @@
+.big_box{
+  position: relative;
+  top:-135px;
+}
+
+.circle_icon{
+  background-color: rgb(242, 242, 242);
+
+
+  padding-bottom: 80px;
+}
+
+.circle_icon_img
+{
+    width:650px;
+    height:350px;
+    margin-top:0px;
+    margin-left:27%;
+
+}
+
+.circle_head_comment p{
+    color: white;
+    font-size:25px;
+    font-weight:bold;
+
+}
+.circle_head_comment p{
+    border-left:1px solid white;
+    border-right:1px solid white;
+  	width:500px;
+    padding-left:80px;
+    padding-right:20px;
+    margin-left:210px;
+    line-height:35px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.circle_index{
+    float:left;
+    margin-top:30px;
+    margin-left: 10%;
+/*    border-top:gray 1px solid;
+    border-bottom:gray 1px solid;  */
+}
+.circle_index img{
+    width:20%
+}
+
+.circle_head_comment{
+  background-color: rgb(180,206,250);
+  padding-top: 100px;
+  padding-bottom: 50px;
+  padding-left: 320px;
+
+}
+.circle_index_contents{
+  float: left;
+  margin-right: 10%;
+}
+
+
+
+
+
+.circle_list{
+  clear: both;
+  background-color: rgb(242, 242, 242);
+  overflow : hidden;
+ _zoom:1;
+ padding-bottom: 80px;
+}
+
+.club{
+  float: left;
+  /* border: 2px solid black; */
+  width:48%;
+}
+
+.club img{
+  width: 60%;
+  float: left;
+  margin: 60px 130px 20px 130px;
+  border: 3px solid grey;
+  border-radius: 40px;
+
+
+}
+
+
+.circle_info{
+  width:60%;
+  float: left;
+/*  border: 2px solid red; */
+  margin:0 0 0 20%;
+}
+
+.circle_info li{
+  font-size: 25px;
+  color: gray;
+  padding-left: 0px;
+  list-style: none;
+  position:relative;
+  left:-30px;
+}
+
+.circle_info li span{
+  font-size: 20px;
+}
+
+
+
+
+.page-top
+{
+	margin: 0 ;
+	padding: 0 ;z-index:1;
+}
+
+.page-top p
+{
+	margin: 0 ;
+	padding: 0 ;
+
+	position: fixed ;
+	right: 16px ;
+	bottom: 16px ;
+}
+
+.move-page-top
+{
+	color: #fff ;
+	line-height: 50px ;
+	text-decoration: none ;
+	text-align: center ;
+
+	-webkit-transition:all 0.3s ;
+	-moz-transition:all 0.3s ;
+	transition:all 0.3s ;
+}
+
+.move-page-top:hover
+{
+	opacity: 0.85 ;
+}
+

@@ -1,0 +1,66 @@
+*{
+	font-family:  "ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+	/*background-color:RGB(67,186,207) ;*/
+}
+
+a{text-decoration: none;}
+
+ul{
+	list-style-type: none;
+}
+li{
+	background-image: url("li_select.png");
+	background-repeat: no-repeat;
+	padding-left:35px;
+	margin-bottom:15px;
+	list-style-position: outside;
+}
+
+
+.tsubuyaki{
+	float: right;
+	width: 550px;
+	height:250px;
+	margin: 8px;
+}
+.hukidashi{
+	float:left;
+	width: 300px;
+	margin-left:50px;
+	position: relative;
+	left:-30px;
+	top:20px;
+}
+.kyara{
+	float:right;
+	width: 250px;
+	height:270px;
+	position: relative;
+	top:-190px;
+	left:-10px;
+}
+
+
+.miyako_title{
+    height:100%;
+    width:100%;
+		position: relative;
+		top:10px;
+}
+
+
+.header{
+    height:220px;
+    background-color:	background-image: linear-gradient(90deg, rgb(52, 152, 219) 24%, rgb(11, 121, 194) 100%);
+		background-image: -moz-linear-gradient(left, rgb(52, 152, 219) 24%, rgb(11, 121, 194) 100%);
+		background-image: -webkit-linear-gradient(left, rgb(52, 152, 219) 24%, rgb(11, 121, 194) 100%);
+		background-image: -o-linear-gradient(left, rgb(52, 152, 219) 24%, rgb(11, 121, 194) 100%);
+		background-image: -ms-linear-gradient(left, rgb(52, 152, 219) 24%, rgb(11, 121, 194) 100%);
+    margin:0 auto;
+}
+
+.title{
+	width:400px;
+	float:left;
+
+}
