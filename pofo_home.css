@@ -1,0 +1,706 @@
+*{
+	background-color: rgb(242,242,242)
+}
+html,body{margin:0px;padding:0px;}
+
+@font-face{
+	font-family:'aaa';
+	src:url("RiiPopkkR.otf");
+}
+*{
+	font-family: 'aaa';
+}
+/* ---------------------
+	
+title
+
+-------------------*/
+
+.title{
+	width:100%;
+	height:400px;
+	/*
+	background-color: rgb(66,180,207);
+	*/
+	background-image: linear-gradient(90deg, rgb(52, 152, 219) 24%, rgb(11, 121, 194) 100%);
+background-image: -moz-linear-gradient(left, rgb(52, 152, 219) 24%, rgb(11, 121, 194) 100%);
+background-image: -webkit-linear-gradient(left, rgb(52, 152, 219) 24%, rgb(11, 121, 194) 100%);
+background-image: -o-linear-gradient(left, rgb(52, 152, 219) 24%, rgb(11, 121, 194) 100%);
+background-image: -ms-linear-gradient(left, rgb(52, 152, 219) 24%, rgb(11, 121, 194) 100%);
+
+	border:4px solid gray;
+}
+.title_sup{
+	width:1200px;
+	background-color: transparent;
+	margin:0 auto;
+
+}
+.title_logo{
+	position: relative;
+	top:45px;
+	left:-35px;
+	margin:0 auto;
+	width:500px;
+	height:250px;
+	background-image:url("http://miako.chu.jp/home_pic/miyako_winter.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+.title_sup p{
+	clear:left;
+	width:50%;
+	font-size:25px;
+	text-align: center;
+	margin:0 auto;
+	font-weight: bold;
+	color:white;
+	position: relative;
+	top:35px;
+	background-color: transparent;
+}
+
+.main_hukidashi{
+	float:right;
+	width:350px;
+	height:150px;
+	position:relative;
+	top:-200px;
+	background-image:url("http://miako.chu.jp/home_pic/tsubuyaki2016.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+.ver{
+	display:block;
+	float:right;
+	color:#FAFAD2;
+	font-size:14px;
+	background-color:transparent;
+	position: relative;
+	top:85px;
+	left:-20px;
+}
+section .inner div {
+    opacity: 0;
+    -webkit-transform-origin: 0px 0px;
+    -ms-transform-origin: 0px 0px;
+    transform-origin: 0px 0px;
+    -webkit-animation-name: Drop;
+    animation-name: Drop;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+#sakura .inner div {
+	position: absolute;
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+    background: #fff;
+}
+ 
+#sakura .inner div.flake2,
+#sakura .inner div.flake4,
+#sakura .inner div.flake6,
+#sakura .inner div.flake8
+#sakura .inner div.flake10
+#sakura .inner div.flake12
+#sakura .inner div.flake14
+#sakura .inner div.flake16
+#sakura .inner div.flake18
+#sakura .inner div.flake20
+#sakura .inner div.flake22
+#sakura .inner div.flake24
+#sakura .inner div.flake26
+#sakura .inner div.flake28
+#sakura .inner div.flake30
+#sakura .inner div.flake32
+#sakura .inner div.flake34
+#sakura .inner div.flake36
+#sakura .inner div.flake38
+#sakura .inner div.flake40
+#sakura .inner div.flake42
+#sakura .inner div.flake44
+#sakura .inner div.flake46
+#sakura .inner div.flake48 {
+    background-size: 5px 6px !important;
+}
+.flake1 {
+    left: 20px;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+}
+ 
+.flake2 {
+    left: 40px;
+    -webkit-animation-duration: 2.7s;
+    animation-duration: 2.7s;
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+ 
+.flake3 {
+    left: 60px;
+    -webkit-animation-duration: 2.9s;
+    animation-duration: 2.9s;
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+ 
+.flake4 {
+    left: 80px;
+    -webkit-animation-duration: 2.4s;
+    animation-duration: 2.4s;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+ 
+.flake5 {
+    left: 100px;
+    -webkit-animation-duration: 2.4s;
+    animation-duration: 2.4s;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+ 
+.flake6 {
+    left: 150px;
+    -webkit-animation-duration: 2.2s;
+    animation-duration: 2.2s;
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+}
+ 
+.flake7 {
+    left: 170px;
+    -webkit-animation-duration: 2.7s;
+    animation-duration: 2.7s;
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+}
+ 
+.flake8 {
+    left: 200px;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-delay: 1.4s;
+    animation-delay: 1.4s;
+}
+.flake9 {
+    left: 220px;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+}
+ 
+.flake10 {
+    left: 240px;
+    -webkit-animation-duration: 2.7s;
+    animation-duration: 2.7s;
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+ 
+.flake11 {
+    left: 260px;
+    -webkit-animation-duration: 2.9s;
+    animation-duration: 2.9s;
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+ 
+.flake12 {
+    left: 280px;
+    -webkit-animation-duration: 2.4s;
+    animation-duration: 2.4s;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+ 
+.flake13 {
+    left: 300px;
+    -webkit-animation-duration: 2.4s;
+    animation-duration: 2.4s;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+ 
+.flake14 {
+    left: 350px;
+    -webkit-animation-duration: 2.2s;
+    animation-duration: 2.2s;
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+}
+ 
+.flake15 {
+    left: 370px;
+    -webkit-animation-duration: 2.7s;
+    animation-duration: 2.7s;
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+}
+ 
+.flake16 {
+    left: 400px;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-delay: 1.4s;
+    animation-delay: 1.4s;
+}
+.flake17 {
+    left: 420px;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+}
+ 
+.flake18 {
+    left: 440px;
+    -webkit-animation-duration: 2.7s;
+    animation-duration: 2.7s;
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+ 
+.flake19 {
+    left: 460px;
+    -webkit-animation-duration: 2.9s;
+    animation-duration: 2.9s;
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+ 
+.flake20 {
+    left: 480px;
+    -webkit-animation-duration: 2.4s;
+    animation-duration: 2.4s;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+ 
+.flake21 {
+    left: 500px;
+    -webkit-animation-duration: 2.4s;
+    animation-duration: 2.4s;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+ 
+.flake22 {
+    left: 550px;
+    -webkit-animation-duration: 2.2s;
+    animation-duration: 2.2s;
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+}
+ 
+.flake23 {
+    left: 570px;
+    -webkit-animation-duration: 2.7s;
+    animation-duration: 2.7s;
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+}
+ 
+.flake24 {
+    left: 600px;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-delay: 1.4s;
+    animation-delay: 1.4s;
+}
+.flake25{
+    left: 620px;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+}
+ 
+.flake26 {
+    left: 640px;
+    -webkit-animation-duration: 2.7s;
+    animation-duration: 2.7s;
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+ 
+.flake27 {
+    left: 660px;
+    -webkit-animation-duration: 2.9s;
+    animation-duration: 2.9s;
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+ 
+.flake28 {
+    left: 680px;
+    -webkit-animation-duration: 2.4s;
+    animation-duration: 2.4s;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+ 
+.flake29 {
+    left: 700px;
+    -webkit-animation-duration: 2.4s;
+    animation-duration: 2.4s;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+ 
+.flake30 {
+    left: 750px;
+    -webkit-animation-duration: 2.2s;
+    animation-duration: 2.2s;
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+}
+ 
+.flake31 {
+    left: 770px;
+    -webkit-animation-duration: 2.7s;
+    animation-duration: 2.7s;
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+}
+ 
+.flake32{
+    left: 800px;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-delay: 1.4s;
+    animation-delay: 1.4s;
+}
+.flake33{
+    left: 820px;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+}
+ 
+.flake34 {
+    left: 840px;
+    -webkit-animation-duration: 2.7s;
+    animation-duration: 2.7s;
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+ 
+.flake35 {
+    left: 860px;
+    -webkit-animation-duration: 2.9s;
+    animation-duration: 2.9s;
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+ 
+.flake36 {
+    left: 880px;
+    -webkit-animation-duration: 2.4s;
+    animation-duration: 2.4s;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+ 
+.flake37 {
+    left: 900px;
+    -webkit-animation-duration: 2.4s;
+    animation-duration: 2.4s;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+ 
+.flake38 {
+    left: 950px;
+    -webkit-animation-duration: 2.2s;
+    animation-duration: 2.2s;
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+}
+ 
+.flake39 {
+    left: 970px;
+    -webkit-animation-duration: 2.7s;
+    animation-duration: 2.7s;
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+}
+ 
+.flake40 {
+    left: 1000px;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-delay: 1.4s;
+    animation-delay: 1.4s;
+}
+.flake41 {
+    left: 1020px;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+}
+ 
+.flake42 {
+    left: 1040px;
+    -webkit-animation-duration: 2.7s;
+    animation-duration: 2.7s;
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+ 
+.flake43 {
+    left: 1060px;
+    -webkit-animation-duration: 2.9s;
+    animation-duration: 2.9s;
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+ 
+.flake44 {
+    left: 1080px;
+    -webkit-animation-duration: 2.4s;
+    animation-duration: 2.4s;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+ 
+.flake45 {
+    left: 1100px;
+    -webkit-animation-duration: 2.4s;
+    animation-duration: 2.4s;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+ 
+.flake46 {
+    left: 1150px;
+    -webkit-animation-duration: 2.2s;
+    animation-duration: 2.2s;
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+}
+ 
+.flake47 {
+    left: 1170px;
+    -webkit-animation-duration: 2.7s;
+    animation-duration: 2.7s;
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+}
+ 
+.flake48 {
+    left: 1200px;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-delay: 1.4s;
+    animation-delay: 1.4s;
+}
+@-webkit-keyframes Drop {
+    0% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+        opacity: 0;
+    }
+    25% {
+        -webkit-transform: translateY(100px);
+        transform: translateY(100px);
+        opacity: 0.5;
+    }
+ 
+    50% {
+        -webkit-transform: translateY(200px);
+        transform: translateY(200px);
+        opacity: 1;
+    }
+    75% {
+        -webkit-transform: translateY(300px);
+        transform: translateY(300px);
+        opacity: 0.5;
+    }
+ 
+    100% {
+        -webkit-transform: translateY(390px);
+        transform: translateY(390px);
+        opacity: 0.3;
+    }
+}
+@keyframes Drop {
+    0% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+        opacity: 0;
+    }
+    25% {
+        -webkit-transform: translateY(100px);
+        transform: translateY(100px);
+        opacity: 0.5;
+    }
+    50% {
+        -webkit-transform: translateY(200px);
+        transform: translateY(200px);
+        opacity: 1;
+    }
+     75% {
+        -webkit-transform: translateY(300px);
+        transform: translateY(300px);
+        opacity: 0.5;
+    }
+ 
+    100% {
+        -webkit-transform: translateY(390px);
+        transform: translateY(390px);
+        opacity: 0.3;
+    }
+}
+/* ---------------------
+	
+main
+
+-------------------*/
+.main{
+	width:1200px;
+	height:1000px;
+	margin:0 auto;
+
+}
+/* ---------------------
+	
+main_left
+
+-------------------*/
+.main_left{
+	width:100%;
+	height:300px;
+	float:left;
+}
+/*  menubar 
+-------------*/
+.menubar{
+	width:100%;
+	height:150px;
+	clear:left;
+  /*  background-color: yellow;*/
+    padding: 30px 0;
+}
+.menu1{
+	background-image: url("http://miako.chu.jp/home_pic/poben.png");
+}
+.menu1:hover{
+	background-image:url("http://miako.chu.jp/home_pic/pobenhover.png");
+}
+.menu2{
+	background-image: url("http://miako.chu.jp/home_pic/pogurume.png");
+}
+.menu2:hover{
+	background-image:url("http://miako.chu.jp/home_pic/pogurumehover.png");
+}
+.menu3{
+	background-image: url("http://miako.chu.jp/home_pic/popofo.png");
+}
+.menu3:hover{
+	background-image:url("http://miako.chu.jp/home_pic/popofohover.png");
+}
+.menu4{
+	background-image: url("http://miako.chu.jp/home_pic/pokou.png");
+}
+.menu4:hover{
+	background-image:url("http://miako.chu.jp/home_pic/pokouhover.png");
+}
+.menubar a{
+	display:block;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border: 2px solid black;
+	width:22.5%;
+	height:150px;
+	border-radius: 10px;
+}
+.menu1, .menu2, .menu3{
+    float:left;
+    margin-right:2.8%;
+}
+.menu4{
+    float:right;
+}
+/*  chara
+-------------*/
+
+/*  circlewatch 
+-------------*/
+
+/* ---------------------
+	
+main_right
+
+-------------------*/
+
+/*  main_hukidashi
+-------------*/
+
+.circlewatch{
+    margin: 0 auto;
+}
+.circlewatch_content{
+    width:100%;
+    height:300px;
+    background-color: rgb(52, 152, 219);
+    margin-bottom:30px;
+}
+.circlewatch_content img{
+	width:300px;
+	height:200px;
+    display: block;
+    position: relative;
+    top:30px;
+    margin: 0 auto;
+    background-color: transparent;
+
+}
+.footer{
+    margin:0 auto;
+    height:400px;
+   /* background-color: green;*/
+}
+.footer_left{
+    float:left;
+    width:60%;
+    height:100%;
+       /* background-color: green;*/
+}
+.footer_left_left{
+    float:left;
+    width:70%;
+    height: 100%;
+       /* background-color: green;*/
+}
+.footer_left_left img{
+    width:400px;
+    height:400px;
+    background-color: transparent;
+}
+.footer_left_right{
+    float: left;
+    width:30%;
+    height:100%;
+    /*background-color: green;*/
+}
+.footer_left_right img{
+    background-color: transparent;
+    width:350px;
+    height:150px;
+    position: relative;
+    left:-200px;
+
+}
+.footer_right{
+    float:left;
+    width:40%;
+    height:100%;
+   /* background-color: green;*/
+}
+.footer_right a{
+    width:100%;
+    height:500px;
+}
